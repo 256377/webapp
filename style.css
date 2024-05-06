@@ -1,0 +1,51 @@
+body {
+    background-color: blanchedalmond;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  
+  button {
+    padding: 25px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #835514;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #344e69;
+  }
+  
+  button {
+    margin-top: 20px; /* Add space between button and title */
+  }
+
+  .genre-Display {
+    margin-top: 60px; /* Add space between genre display and button */
+  }
+
+  genre-display.fullscreen {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transform: translate(-40%, -40%);
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 40px;
+    text-align: center; /* Center the text horizontally */
+  }
+  
