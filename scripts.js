@@ -41,4 +41,4 @@ function triggerConfetti() {
     spread: 160,
     origin: { y: 0.6 }
   });
-}
+} 
